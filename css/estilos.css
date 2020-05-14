@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 1;
+}
+
+body {
+    background-image: url(img/fundo.jpg);
+    background-size: 1380px auto;
+}
+
+.site-title,
+.site-subtitle {
+    text-align: center;
+    color: cornsilk;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    background-color: lightblue;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+    font-size: medium;
+}
+
+a:hover {
+    color: rgb(9, 255, 255);
+    text-decoration: double;
+}
+
